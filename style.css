@@ -1,0 +1,27 @@
+html{
+    min-height: 100%;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    
+
+}
+
+.card{
+    background-color: white;
+    height: 450px;
+    width: 900px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
