@@ -15,7 +15,7 @@ body{
 
 .card{
     background-color: white;
-    height: 450px;
+    height: 500px;
     width: 900px;
     border-radius: 20px;
     display: flex;
@@ -23,19 +23,26 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
+    
 
+}
+
+h1{
+    padding-top: 25px;
 }
 
 .card .content{
     position: absolute;
     left: 50%;
     width: 450px;
+    
 }
 
 details{
     width: 370px;
     border-bottom: 2px solid hsl(240, 5%, 91%);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 details > summary {
@@ -47,10 +54,29 @@ details > summary {
     margin: 5px;
     
     list-style: none;
-  }
+}
 
-  details > summary .arrow{
+details > summary .arrow{
     position: absolute;
     left: 75%;
     
-  }
+}
+
+.card .img1{
+    position: absolute;
+    overflow: hidden;
+    width: 450px;
+    height: 500px;
+}
+
+.card .img2 .box{
+    position: absolute;
+    left: -92px;
+    top: 195px; 
+    
+}
+.card .img1 .woman{
+    position: absolute;
+    left: -85px;
+    padding-top: 60px;
+}
