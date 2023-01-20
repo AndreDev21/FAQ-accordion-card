@@ -23,18 +23,24 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 2px 30px 50px rgba(101, 14, 215, 0.571);
     
 
 }
 
 h1{
     padding-top: 25px;
+    padding-left: 2px;
+    font-family: 'Kumbh Sans', bold;
+    color: hsl(238, 29%, 16%);
 }
 
 .card .content{
     position: absolute;
     left: 50%;
     width: 450px;
+    overflow: hidden;
+    height: 500px;
     
 }
 
@@ -45,14 +51,29 @@ details{
     padding-bottom: 10px;
     cursor: pointer;
     position: relative;
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(240, 6%, 50%);
+    font-weight: 400;
+}
+
+details[open] summary{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+    
 }
 
 summary {
-    padding: 2px 6px;
+    
     width: 430px;
     cursor: pointer;
     list-style: none;
-    margin: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    color: hsl(237, 12%, 33%);
+    font-weight: 400;
 }
 summary:focus{
     outline: none;
@@ -104,4 +125,9 @@ summary:hover .arrow-up svg{
     position: absolute;
     left: -85px;
     padding-top: 60px;
+}
+.card .img1 svg{
+    position: absolute;
+    left: -578px;
+    top: -300px;
 }
